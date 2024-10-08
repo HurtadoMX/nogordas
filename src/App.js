@@ -18,7 +18,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (peso >= 100) {
+    if (peso >= 80) {
       setImageSrc(image1); // Usar la imagen importada
       setAudioSrc(audio1); // Usar el sonido importado
     } else {
